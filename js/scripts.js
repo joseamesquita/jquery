@@ -43,10 +43,10 @@ var cipher = function(string) {
 
 $(document).ready(function() {
   $("#normal").click(function() {
-    alert(sentence);
+    document.getElementById("sentence").innerHTML = sentence;
   });
 
   $("#cipher").click(function() {
-    alert(cipher(sentence));
+    document.getElementById("sentence").innerHTML = cipher(sentence);
   });
 });
