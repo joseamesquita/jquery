@@ -1,5 +1,4 @@
 var sentence = prompt("Enter a sentence");
-console.log(sentence);
 
 var uppercaseFirstLast = function(sentence) {
   var newSentence = "";
@@ -41,8 +40,6 @@ var midFirst = function(sentence){
 var cipher = function(string) {
   return reverseString(midFirst(string));
 }
-
-console.log(cipher(sentence));
 
 $(document).ready(function() {
   $("#normal").click(function() {
