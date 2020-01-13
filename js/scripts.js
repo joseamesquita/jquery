@@ -43,3 +43,13 @@ var cipher = function(string) {
 }
 
 console.log(cipher(sentence));
+
+$(document).ready(function() {
+  $("#normal").click(function() {
+    alert(sentence);
+  });
+
+  $("#cipher").click(function() {
+    alert(cipher(sentence));
+  });
+});
