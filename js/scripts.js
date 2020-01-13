@@ -23,16 +23,23 @@ var switchFirstLast = function(sentence) {
   return lastFirst;
 }
 
-var cipher = function(sentence) {
+var addFirstLastToEnd = function(sentence) {
   return sentence += switchFirstLast(uppercaseFirstLast(sentence));
+}
+
+function reverseString(string) {
+  return string.split("").reverse().join("");
 }
 
 var midFirst = function(sentence){
   var mid = Math.floor(sentence.length / 2);
-  var result = cipher(sentence);
+  var result = addFirstLastToEnd(sentence);
   var final = sentence[mid] + result;
-  return final
-  
+  return final;
 }
 
-console.log(midFirst(sentence));
+var cipher = function(string) {
+  return reverseString(midFirst(string));
+}
+
+console.log(cipher(sentence));
