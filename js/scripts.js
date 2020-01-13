@@ -14,3 +14,15 @@ var uppercaseFirstLast = function(sentence) {
 }
 
 console.log(uppercaseFirstLast(sentence));
+
+
+
+
+var switchFirstLast = function(sentence) {
+  var result = "";
+  result += sentence[sentence.length - 1]
+  result += sentence.slice(1, sentence.length - 1)
+  result += sentence[0]
+  return result;
+}
+console.log(switchFirstLast(uppercaseFirstLast(sentence)));
