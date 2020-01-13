@@ -1,15 +1,21 @@
 body {
   background-color: black;
   text-align: center;
-  margin: 300px;
+  margin: 200px;
 }
 
 button {
   margin: 10px;
 }
 
+h1 {
+  font-size: 40px;
+  color: #fff;
+}
+
 p {
   font-size: 30px;
   margin: 20px;
   color: white;
+  width: auto;
 }
