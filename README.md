@@ -8,13 +8,13 @@
 
 _Simple page with backend javascript to encode a sentence given by the user. Two buttons give the user options to display original sentence or ciphered sentence_
 
-_The page can be viewed online on [Github Pages](https://jamisoncozart.github.io/cipher/)_
+_The page can be viewed online on [Github Pages](https://github.com/joseamesquita/jquery/)_
 
 ## Setup/Installation Requirements
 
 1. Clone the repository into preferred directory:
     ```
-    git clone https://github.com/jamisoncozart/cipher
+    git clone https://github.com/joseamesquita/jquery
     ```
 2. Open working directory in Visual Studio Code or preferred text editor:
     ```
